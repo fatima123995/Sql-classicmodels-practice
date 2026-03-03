@@ -1,13 +1,11 @@
-SQL ClassicModels Practice
-Overview
+SQL ClassicModels Practice Overview
 
-This repository contains SQL practice queries performed on the ClassicModels sample database using MySQL.
-The purpose of this project is to strengthen foundational SQL skills including data retrieval, filtering, column aliasing, and basic data exploration.
+This repository contains SQL practice queries performed on the ClassicModels sample database using MySQL. The purpose of this project is to strengthen foundational SQL skills, including data retrieval, filtering, column aliasing, and basic data exploration.
 
 Database Used
 ClassicModels Sample Database
 
-The dataset includes the following tables:
+Tables Included
 customers
 employees
 offices
@@ -27,8 +25,7 @@ Basic data exploration with DESCRIBE
 Retrieving specific columns from tables
 
 Sample Query
-SELECT customerName AS 'Customer Name',
-       country
+SELECT customerName AS 'Customer Name', country
 FROM customers
 WHERE country = 'USA';
 
